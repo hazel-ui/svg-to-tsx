@@ -1,0 +1,10 @@
+ext: "tsx"
+icon: true
+typescript: true
+dimensions: false
+prettier: true
+prettierConfig: { "singleQuote": false }
+svgo: true
+svgoConfig: {}
+ignoreExisting: true
+plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx", "@svgr/plugin-prettier"]
